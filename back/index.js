@@ -23,7 +23,7 @@ const db = mysql.createConnection({
 });
 
 
-//Uso de Middelwares
+//Uso de Middelwares en App
 app.use(bodyParser.json());
 app.use(cors());
 app.use(fileUpload());
